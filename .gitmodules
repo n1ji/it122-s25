@@ -1,0 +1,3 @@
+[submodule "it122-domPlay"]
+	path = it122-domPlay
+	url = https://github.com/n1ji/it122-domPlay.git
