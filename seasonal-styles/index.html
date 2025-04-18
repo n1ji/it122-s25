@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Styles</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+    <h1>Seasonal Styles</h1>
+    <div id="myDiv">
+        <p>I'm inside the div</p>
+        <p>I'm inside the div</p>
+        <p>I'm inside the div</p>
+    </div>
+</body>
+<script>
+    $("document").ready(function() {
+        $theDiv = $("div#myDiv")
+
+        $theDiv
+        .css("background-color", "blue")
+        .css("border", "2px solid black")
+        .html("<h1>Seasonal Styles</h1>")
+        .append("<p>Welcome to the Seasonal Styles page!</p>")
+        .fadeOut(3000);
+    });
+</script>
+</html>
+
