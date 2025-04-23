@@ -1,6 +1,6 @@
 [submodule "it122-domPlay"]
 	path = it122-domPlay
 	url = https://github.com/n1ji/it122-domPlay.git
-[submodule "seasonal-styles"]
-	path = seasonal-styles
+[submodule "it122-seasonal-styles"]
+	path = it122-seasonal-styles
 	url = https://github.com/n1ji/it122-seasonal-styles.git
