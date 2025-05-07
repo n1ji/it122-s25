@@ -4,3 +4,6 @@
 [submodule "it122-seasonal-styles"]
 	path = it122-seasonal-styles
 	url = https://github.com/n1ji/it122-seasonal-styles.git
+[submodule "it122-api-client"]
+	path = it122-api-client
+	url = https://github.com/n1ji/it122-api-client.git
